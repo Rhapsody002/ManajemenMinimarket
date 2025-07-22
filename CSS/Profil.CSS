@@ -1,0 +1,95 @@
+
+    .form-box {
+      max-width: 500px;
+      margin: 60px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-box label {
+      display: block;
+      margin: 15px 0 5px;
+      font-weight: 500;
+    }
+
+    .form-box input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .form-box input[type="submit"] {
+      background-color: #0058a3;
+      color: white;
+      font-weight: bold;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .form-box input[type="submit"]:hover {
+      background-color: #004280;
+    }
+
+
+    .profile-box {
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .profile-box img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .profile-box h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #0058a3;
+    }
+
+    .profile-box p {
+      font-size: 16px;
+      margin: 6px 0;
+    }
+
+    .button-profil {
+      display: inline-block;
+      margin: 15px 10px 0;
+      padding: 10px 20px;
+      background-color: #ffd200;
+      color: black;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button-profil:hover {
+      background-color: #ffc400;
+    }
+
+    .logout-button {
+      background-color: #d32f2f;
+      color: white;
+    }
+
+    .logout-button:hover {
+      background-color: #b71c1c;
+    }
+ 

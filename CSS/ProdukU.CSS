@@ -1,0 +1,100 @@
+
+    /* Filter dan Search Bar */
+    .filter-search-bar {
+      background-color: #fff;
+      padding: 20px;
+      margin: 30px auto 10px;
+      max-width: 1200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .filter-search-container {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .filter-select, .search-input {
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      flex: 1;
+      min-width: 200px;
+    }
+    
+    .search-input {
+      flex: 2;
+    }
+
+    .search-button {
+      background-color: #ffd200;
+      color: #000;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .search-button:hover {
+      background-color: #ffc400;
+    }
+
+
+    .search-button:hover {
+      background-color: #ffc400;
+    }
+
+    .produk-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .produk-item {
+      background: white;
+      padding: 20px;
+      width: 260px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .produk-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .produk-item h3 {
+      margin: 10px 0 5px;
+    }
+
+    .produk-item p {
+      margin: 3px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #ffd200;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #ffc400;
+    }
